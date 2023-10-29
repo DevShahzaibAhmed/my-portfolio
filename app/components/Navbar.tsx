@@ -1,40 +1,41 @@
 import Link from 'next/link'
 import React from 'react'
+import {HiDownload} from 'react-icons/hi'
+import {FiMenu} from 'react-icons/fi'
 
 const Navbar = () => {
   return (
-    <div className='bg-white text-violet-600/50 fixed top-0 w-[100%] z-10'>
-        <div className='container mx-auto flex justify-between items-center py-4 '>
-            <div className='text-[24px] text-violet-900 font-semibold hover:italic hover:text-violet-300'>Shahzaib Ahmed</div>
+    <div className='bg-white text-violet-900 fixed top-0 w-[100%] z-10'>
+        <div className='container mx-auto flex justify-between items-center py-4 px-4'>
+            <div className='text-[24px] text-violet-600 font-semibold hover:italic hover:text-violet-300'>Shahzaib Ahmed</div>
             
-            <div className='hover:font-bold hover:text-violet-600'>
+            <div className= 'hidden md:flex gap-6'>
                 <Link href='/'>
-                    <li className='body-text '>Home</li>
+                    <button className='hover:font-bold hover:text-violet-900'>Home</button>
                 </Link>
-            </div>
-            <div className='hover:font-bold hover:text-violet-600'>
-                <Link href='/'>
-                    <li>About</li>
+                <Link href='/About'>
+                    <button className='hover:font-bold hover:text-violet-900'>About</button>
                 </Link>
-            </div>
-
-            <div className='hover:font-bold hover:text-violet-600'>
-                <Link href='/'>
-                    <li>Portfolio</li>
+                <Link href='/Portfolio'>
+                    <button className='hover:font-bold hover:text-violet-900'>Portfolio</button>
                 </Link>
-            </div>
-
-            <div className='hover:font-bold hover:text-violet-600'>
-                <Link href='/'>
-                    <li>Blog</li>
+                <Link href='/Blog'>
+                    <button className='hover:font-bold hover:text-violet-900'>Blog</button>
+                </Link>
+                <Link href='/Contact'>
+                    <button className='hover:font-bold hover:text-violet-900'>Contact</button>
                 </Link>
             </div>
 
-            <div className='hover:font-bold hover:text-violet-600'>
-                <Link href='/'>
-                    <li>Contact</li>
-                </Link>
-            </div>
+            <a href="#" className='hidden md:flex flex-border px-5 py-1 border-[#ff4D41] rounded-[5px] items-center 
+            hover:bg-violet-600 text-violet-900 hover:text-white transition duration-200'>
+                Download CV
+                <HiDownload/>
+                </a>
+
+                <div className='md:hidden text-[24px] '>
+                    <FiMenu/>
+                </div>
         </div>
     
     </div>
