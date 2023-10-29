@@ -5,7 +5,7 @@ import {FiMenu} from 'react-icons/fi'
 
 const Navbar = () => {
   return (
-    <div className='bg-white text-violet-900 fixed top-0 w-[100%] z-10'>
+    <div className='bg-white text-violet-900 sticky top-0 w-[100%] z-10'>
         <div className='container mx-auto flex justify-between items-center py-4 px-4'>
             <div className='text-[24px] text-violet-600 font-semibold hover:italic hover:text-violet-300'>Shahzaib Ahmed</div>
             
