@@ -1,15 +1,20 @@
-import Image from "next/image";
-import React from "react";
+import React from 'react'
 
 const Hero = () => {
   return (
-    <div className='h-screen flex flex-col opacity-75 object-right-top '>
-      <div className="flex w-full justify-end items-center">
-        <Image className="w-[10rem] h-[10rem]" src='/bg-1.jpg' width={1000} height={1000} alt="Profile Pic"/>
+    <div className='bg-[url("/b2.jpg")] h-screen bg-cover bg-center bg-fixed flex items-center'>
+
+      <div className='cotainer mx-auto px-4'>
+
+        <div className='max-w-[450px] text-white flex flex-col gap-[40px]'>
+
+        </div>
+
       </div>
+
+
     </div>
+  )
+}
 
-  );
-};
-
-export default Hero;
+export default Hero
