@@ -9,7 +9,7 @@ const Hero = () => {
 
         <div className='max-w-[450px] text-white flex flex-col gap-[40px]'>
 
-          <div>
+          <div >
             <h1 className='text-5xl '>I`m SHAHZAIB AHMED</h1>
 
           </div>
@@ -24,3 +24,4 @@ const Hero = () => {
 }
 
 export default Hero
+
