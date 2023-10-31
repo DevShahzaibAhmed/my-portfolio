@@ -22,7 +22,7 @@ const About = () => {
             <Image
             src="/profile.jpg"
              width={400}
-            height={10}
+            height={500}
              alt="Profile-Pic"
             />
 
@@ -65,8 +65,8 @@ const About = () => {
 
             <div className='flex flex-col gap-6 text-gray-600'>
             <div>04/09/2000</div>            
-            <div>University Of Central</div>
-            <div><a href="https://github.com/DevShahzaibAhmed"></a></div>
+            <div>Uni Of Central Punjab</div>
+            <div>www.github/devshahzaib</div>
             <div>Front End Development</div>
             <div>Lahore</div>          
 
