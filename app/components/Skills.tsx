@@ -1,0 +1,19 @@
+import React from 'react'
+
+const Skills = () => {
+  return (
+    <>
+    <section className='container mx-auto py-10 px-4'>
+
+    <div className='text-[#232940] text-[32px] font-medium flex items-center gap-4 py-16'>
+        Skills
+        <div className='bg-[#ff4D41] h-[2px] w-[40px] translate-y-1'></div>
+    </div>
+
+    <p className='text-gray-600 -mt-10 mb-10'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, ipsa.</p>
+    </section>
+    </>
+  )
+}
+
+export default Skills
