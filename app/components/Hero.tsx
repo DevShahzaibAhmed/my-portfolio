@@ -10,8 +10,16 @@ const Hero = () => {
         <div className='max-w-[450px] text-white flex flex-col gap-[40px]'>
 
           <div >
-            <h1 className='text-5xl '>I`m SHAHZAIB AHMED</h1>
+            <h1 className='text-5xl hover:underline transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 '>I`m SHAHZAIB AHMED</h1>
+            <h4 className='text-2xl mt-3 '>FrontEnd Developer</h4>
 
+          </div>
+
+          <div className='bg-[#ff4D41] h-[2px] w-[40px]'></div>
+
+          <div>
+            <p>Welcome to My Portfolio Website</p>
+            
           </div>
 
         </div>
