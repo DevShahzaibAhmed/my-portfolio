@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import Image from 'next/image'
 import {AiOutlineGift} from 'react-icons/ai'
@@ -19,13 +20,13 @@ const About = () => {
 
     <div className='grid grid-cols-1 md:grid-cols-2 gap-[60px]'>
         <div>
-            <Image
+            {/* <Image
             src="/profile.jpg"
              width={400}
             height={500}
              alt="Profile-Pic"
-            />
-
+            /> */}
+            <img className='w-[400px]' src="/profile.jpg" alt="Profile" />
         </div>
         <div className='flex items-center justify-between w-[300px]'>
             <div className='flex flex-col gap-6'>
@@ -74,14 +75,14 @@ const About = () => {
 
         </div>
 
-        <div className='max-w-[800px]'>
-            <h2 className='font-bold mt-16 mb-10 '>I am Shahzaib. A FrontEnd Developer</h2>
+        <div className=' max-w-[800px] '>
+            <h2 className='font-bold mt-16 mb-10'>I am Shahzaib. A FrontEnd Developer</h2>
             <p className='text-gray-600'>Hi! My Name is Shahzaib Ahmed. I am a FrontEnd Developer with a good knowledge and experience.</p>
 
             <button className='bg-[#ff4D41] text-white py-2 px-4 rounded inline-block mt-10 font-medium border border-[#ff4D41] hover:bg-transparent hover:text-[#ff4D41] transition duration-200'>
               Contact ME
             </button>
-            
+        
         </div>
 
     </div>
