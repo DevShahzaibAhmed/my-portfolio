@@ -11,7 +11,7 @@ import { IoLocationOutline } from 'react-icons/io5'
 const About = () => {
   return (
     <>
-    <section className='container mx-auto py-10 px-4'>
+    <section className='container mx-auto py-10 px-4 id="Aboutid" '>
 
     <div className='text-[#232940] text-[32px] font-medium flex items-center gap-4 py-16'>
         About Me
