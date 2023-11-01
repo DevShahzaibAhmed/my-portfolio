@@ -20,7 +20,7 @@ const Hero = () => {
           <div>
             <p>Welcome to My Portfolio Website</p>
 
-            <button className='bg-[#ff4D41] text-white py-2 px-4 rounded inline-block mt-10 font-medium border border-[#ff4D41] hover:bg-transparent hover:text-[#ff4D41] transition duration-200'>
+            <button className='btn'>
               Learn More
             </button>
           </div>
