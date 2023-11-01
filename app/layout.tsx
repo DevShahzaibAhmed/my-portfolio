@@ -4,6 +4,7 @@ import './globals.css'
 import { LayoutRouter } from 'next/dist/server/app-render/entry-base'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import Sidebar from './components/Sidebar'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Navbar/>
+        <Navbar toggleSidebar={toggleSidebar}/>
         {children}
         <Footer/>
       </body>
