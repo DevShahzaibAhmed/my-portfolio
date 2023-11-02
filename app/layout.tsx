@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Navbar toggleSidebar={toggleSidebar}/>
+        <Navbar toggleSidebar={undefined}/>
         {children}
         <Footer/>
       </body>
