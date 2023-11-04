@@ -24,8 +24,6 @@ const Contact = () => {
             <div>
                 <button type="submit" className='btn'>MESSAGE</button>
             </div>
-
-
         </form>
     </section>
     </>
