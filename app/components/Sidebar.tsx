@@ -16,7 +16,6 @@ const Sidebar = ({isOpen, toggleSidebar}) => {
         <a className='hover:text-[#ff4D41]' href="">Portfolio</a>
         <a className='hover:text-[#ff4D41]' href="">Blogs</a>
         <a className='hover:text-[#ff4D41]' href="">Contact</a>
-
       </div>
     </div>
   )
