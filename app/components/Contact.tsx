@@ -14,7 +14,6 @@ const Contact = () => {
 
                 <input type="text" placeholder='Name' className='inputStyle' required/>
                 <input type="text" placeholder='Email' className='inputStyle' required/>
-
             </div>
 
             <input type="text" placeholder='Subject' className='inputStyle' required/>
@@ -29,5 +28,4 @@ const Contact = () => {
     </>
   )
 }
-
 export default Contact
