@@ -72,7 +72,6 @@ const About = () => {
             <div>Lahore</div>          
 
             </div>
-
         </div>
 
     </div>
