@@ -7,7 +7,6 @@ import { BsGlobe2 } from 'react-icons/bs'
 import { TbPacman } from 'react-icons/tb'
 import { IoLocationOutline } from 'react-icons/io5'
 
-
 const About = () => {
   return (
     <>
