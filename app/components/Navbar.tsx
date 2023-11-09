@@ -37,7 +37,6 @@ const Navbar = ({toggleSidebar}) => {
                     <FiMenu/>
                 </div>
         </div>
-    
     </div>
   )
 }
