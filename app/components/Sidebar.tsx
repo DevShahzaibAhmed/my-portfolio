@@ -9,7 +9,6 @@ const Sidebar = ({isOpen, toggleSidebar}) => {
       <div className='absolute top-0 right-0 mr-[30px] mt-[10px] text-[24px] hover:cursor-pointer 'onClick={toggleSidebar}>
         <RiCloseFill/>
       </div>
-
       <div className='flex flex-col gap-4 text-[28px]'>
         <Link className='hover:text-[#ff4D41]' href="/">Home</Link>
         <Link className='hover:text-[#ff4D41]' href="Aboutid">About</Link>
