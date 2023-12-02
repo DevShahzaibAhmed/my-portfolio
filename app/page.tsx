@@ -5,7 +5,6 @@ import What_do from './components/What_do'
 import Skills from './components/Skills'
 import Work from './components/Work'
 import Contact from './components/Contact'
-import { useState } from 'react'
 
 export default function Home() {
 

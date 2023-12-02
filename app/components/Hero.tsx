@@ -1,4 +1,6 @@
+import Link from 'next/link'
 import React from 'react'
+
 
 
 const Hero = () => {
@@ -18,9 +20,14 @@ const Hero = () => {
 
           <div>
             <p>Welcome to My Portfolio Website</p>
+
+            <Link href="/About">
+
             <button className='btn'>
               Learn More
             </button>
+           
+            </Link>
           </div>
 
         </div>
