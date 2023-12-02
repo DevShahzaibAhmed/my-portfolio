@@ -6,18 +6,12 @@ import Skills from './components/Skills'
 import Work from './components/Work'
 import Contact from './components/Contact'
 import { useState } from 'react'
-import Sidebar from './components/Sidebar'
 
 export default function Home() {
 
-  // {const [isOpen,setIsOpen]=useState(false)
-  // const toggleSidebar=() => {
-  //   setIsOpen(!isOpen)
-  // }
 
   return (
     <>
-    <Sidebar isOpen={undefined} toggleSidebar={undefined}/>
     <Hero/>
     <About/>
     <What_do/>

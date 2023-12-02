@@ -3,7 +3,7 @@ import React from 'react'
 import {HiDownload} from 'react-icons/hi'
 import {FiMenu} from 'react-icons/fi'
 
-const Navbar = ({toggleSidebar}) => {
+const Navbar = () => {
   return (
     <div className='bg-white text-violet-900 sticky top-0 w-[100%] z-10'>
         <div className='container mx-auto flex justify-between items-center py-4 px-4'>
