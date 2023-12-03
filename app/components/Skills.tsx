@@ -10,7 +10,7 @@ const Skills = () => {
         <div className='bg-[#ff4D41] h-[2px] w-[40px] translate-y-1'></div>
     </div>
 
-    <p className='text-gray-600 -mt-10 mb-10'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, ipsa.</p>
+    <p className='text-gray-600 -mt-10 mb-10'>I have a sound knowledg and good grip in these languages</p>
    
    <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
 
