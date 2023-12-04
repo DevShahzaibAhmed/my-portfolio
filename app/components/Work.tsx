@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const Work = () => {
@@ -12,35 +13,35 @@ const Work = () => {
     <div className='grid grid-cols-3 ga-4'>
         <div className='row-span-2 relative group'>
 
-            <img src="/p1.jpg" alt="Project 1" />
+            <Image src="/p1.jpg" alt="Project 1" />
             <div className='bg-[#000000bd] absolute w-[100%] h-[100%] top-0 opacity-0 transition duration-500 group-hover:opacity-100 grid place-items-center text-white '>
                 Project 1
             </div>
         </div>
 
         <div className='relative group'>
-        <img src="/p2.jpg" alt="Project 2" />
+        <Image src="/p2.jpg" alt="Project 2" />
             <div className='bg-[#000000bd] absolute w-[100%] h-[100%] top-0 opacity-0 transition duration-500 group-hover:opacity-100 grid place-items-center text-white '>
                 Project 2
             </div>
         </div>
 
         <div className='relative group'>
-        <img src="/p3.jpg" alt="Project 3" />
+        <Image src="/p3.jpg" alt="Project 3" />
             <div className='bg-[#000000bd] absolute w-[100%] h-[100%] top-0 opacity-0 transition duration-500 group-hover:opacity-100 grid place-items-center text-white '>
                 Project 3
             </div>
         </div>
 
         <div className='relative group'>
-        <img src="/p3.jpg" alt="Project 4" />
+        <Image src="/p3.jpg" alt="Project 4" />
             <div className='bg-[#000000bd] absolute w-[100%] h-[100%] top-0 opacity-0 transition duration-500 group-hover:opacity-100 grid place-items-center text-white '>
                 Project 4
             </div>
         </div>
 
         <div className='relative group'>
-        <img src="/p2.jpg" alt="Project 5" />
+        <Image src="/p2.jpg" alt="Project 5" />
             <div className='bg-[#000000bd] absolute w-[100%] h-[100%] top-0 opacity-0 transition duration-500 group-hover:opacity-100 grid place-items-center text-white '>
                 Project 5
             </div>
