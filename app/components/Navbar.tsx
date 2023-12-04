@@ -1,9 +1,18 @@
+'use client';
+
 import Link from 'next/link'
-import React from 'react'
+import React, { useState } from 'react'
 import {HiDownload} from 'react-icons/hi'
 import {FiMenu} from 'react-icons/fi'
 
 const Navbar = () => {
+
+    const [menu, setMenu] = useState(false);
+
+    const handelToggleMenu = () => {
+        setMenu(!menu);
+    }
+
   return (
     <div className='bg-white text-violet-900 sticky top-0 w-[100%] z-10'>
         <div className='container mx-auto flex justify-between items-center py-4 px-4'>
@@ -32,10 +41,32 @@ const Navbar = () => {
                 Download CV
                 <HiDownload/>
                 </a>
-
+                
                 <div className='md:hidden text-[24px] '>
-                    <FiMenu/>
+                    <FiMenu onClick = {handelToggleMenu}/>
                 </div>
+
+                {
+                    menu && (
+                        <div className='flex flex-col bg-white z-50 fixed top-32'>
+                         <Link href='/'>
+                    <button className='hover:font-bold hover:text-violet-900'>Home</button>
+                </Link>
+                <Link href='/About'>
+                    <button className='hover:font-bold hover:text-violet-900'>About</button>
+                </Link>
+                <Link href='/Portfolio'>
+                    <button className='hover:font-bold hover:text-violet-900'>Portfolio</button>
+                </Link>
+                <Link href='/Blog'>
+                    <button className='hover:font-bold hover:text-violet-900'>Blog</button>
+                </Link>
+                <Link href='/Contact'>
+                    <button className='hover:font-bold hover:text-violet-900'>Contact</button>
+                </Link>
+                </div>
+                    )
+                }
         </div>
     </div>
   )
